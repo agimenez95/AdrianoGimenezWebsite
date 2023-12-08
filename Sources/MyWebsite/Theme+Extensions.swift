@@ -90,7 +90,7 @@ extension Theme where Site == MyWebsite {
                                .a(
                                    .class("blog-header-logo text-body-emphasis text-decoration-none"),
                                    .href("/"),
-                                   "Adriano Giménez Fernandez"
+                                   "Adriano Giménez Fernández"
                                )
                            )
                        )
