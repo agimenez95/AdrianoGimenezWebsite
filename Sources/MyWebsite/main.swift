@@ -31,4 +31,4 @@ try MyWebsite().publish(using: [.addDefaultSectionTitles(),
                                 .generateHTML(withTheme: .basic),
                                 .generateSiteMap(),
                                 .installPlugin(.ensureAllItemsAreTagged),
-                                .deploy(using: .gitHub("agimenez95/AdrianoGimenezWebsite"))])
+                                .deploy(using: .gitHub("agimenez95/AdrianoGimenezWebsite", branch: "main"))])
